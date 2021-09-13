@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #FFEB4E;
+}
+
+.navbar-light .navbar-nav .nav-link .active {
+    font-size: 16px;
+    color: blue;
+}
+
+.navbar {
+    background-color: #06111C;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #BB2020;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #BB2020;
+}
+
+.navbar-dark .navbar-nav .nav-link .active:hover {
+    color: #FFEB4E;
+}
+
+.navbar li {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.navbar-dark .navbar-nav .nav-link.join-now {
+    font-size: 16px;
+    color: #BB2020;
+    background-color: #FFEB4E;
+    padding: 6px 12px 6px 12px;
+    border-radius: 50px;
+    margin-top: 1px;
+}
+
+@media (max-width: 991px) {
+    .navbar-dark .navbar-nav .nav-link.join-now {
+        background-color: transparent;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+/*-----------------------------------End of NAV SECTION ---------------------------------------------*/
+
+
+/*-----------------------------------Start of hero section ---------------------------------------------*/
+
+#hero {
+    width: 100%;
+    padding-bottom: 1px;
+    height: auto;
+    background-color: #E1E5E5;
+}
+
+.nott-hero {
+    display: none;
+}
+
+.american-youcan {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 150px;
+    letter-spacing: 4px;
+    margin-top: 80px;
+}
+
+.online {
+    color: #BB2020;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin-top: -50px;
+    letter-spacing: 2px;
+}
+
+.getintoshape {
+    font-size: 25px;
+    color: #BB2020;
+    margin-top: -7px;
+}
+
+@media (max-width: 1402px) {
+    .american-youcan {
+        margin-top: 150px;
+        font-size: 100px;
+    }
+    .online {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .getintoshape {
+        color: #BB2020;
+    }
+}
+
+@media (max-width: 990px) {
+    .american-youcan {
+        margin-top: 180px;
+        font-size: 70px;
+    }
+    .online {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .getintoshape {
+        font-size: 15px;
+        color: #BB2020;
+    }
+}
+
+@media (max-width: 765px) {
+    .american-youcan {
+        margin-top: 180px;
+        font-size: 50px;
+    }
+    .online {
+        font-size: 14px;
+        padding-top: 40px;
+    }
+    .getintoshape {
+        font-size: 10px;
+        color: #BB2020;
+    }
+}
+
+@media (max-width: 575px) {
+    .not-hero {
+        display: none;
+    }
+    .nott-hero {
+        display: contents;
+    }
+    .american-youcan {
+        margin-top: -38px;
+        font-size: 80px;
+        letter-spacing: 4px;
+    }
+    .online {
+        font-size: 25px;
+        margin-top: -65px;
+    }
+    .getintoshape {
+        font-size: 15px;
+        color: #BB2020;
+        margin-top: -3px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 389px) {
+    .american-youcan {
+        margin-top: -15px;
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+    .online {
+        font-size: 17px;
+        margin-top: -50px;
+    }
+    .getintoshape {
+        font-size: 15px;
+        color: #BB2020;
+        margin-top: -8px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .american-youcan {
+        margin-top: -15px;
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+    .online {
+        font-size: 13px;
+        margin-top: -50px;
+    }
+    .getintoshape {
+        font-size: 10px;
+        color: #BB2020;
+        margin-top: -8px;
+        padding-top: 2px;
+        padding-bottom: 40px;
+    }
+}
+
+
+/*-----------------------------------End of hero SECTION ---------------------------------------------*/
+
+
+/*-----------------------------------Start of My story section ---------------------------------------------*/
+
+#my-story {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #06111C;
+}
+
+.mystoryheading {
+    text-align: center;
+    color: #BB2020;
+    text-decoration: underline;
+}
+
+.thadiyan-manu {
+    width: 422px;
+    height: 419.77px auto;
+    margin-top: 40px;
+}
+
+.thadiyan-manu2 {
+    padding-bottom: 40px;
+}
+
+.parathadi {
+    color: #FFFFFF;
+    text-align: left;
+    letter-spacing: 0.07em;
+    line-height: 122.01%;
+    padding-top: 80px;
+}
+
+.nott-mystory {
+    display: none;
+}
+
+.fitpic {
+    width: 846px;
+    height: 364px;
+}
+
+@media (max-width: 1397px) {
+    .parathadi {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .not-mystory {
+        display: none;
+    }
+    .nott-mystory {
+        display: contents;
+    }
+    .thadiyan-manu2 {
+        padding-bottom: 0px;
+    }
+    .parathadi {
+        text-align: justify;
+        padding-top: 20px;
+    }
+    .parathadi2 {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width:415px) {
+    .fitpic {
+        width: 350px;
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+
+/*-----------------------------------End of My story SECTION ---------------------------------------------*/
+
+
+/*-----------------------------------Start of  healthy-life-style-habit ---------------------------------------------*/
+
+#healthy-life-style-habit {
+    width: 100%;
+    background-color: #E1E5E5;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.healthy {
+    color: #BB2020;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.habitpic {
+    padding-bottom: 20px;
+}
+
+.foodpara {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.foodpara2 {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.nott-healthy-habbit {
+    display: none;
+}
+
+.margin-extra {
+    margin-top: 30px;
+}
+
+@media(max-width:1399px) {
+    .not-healthy-habbit {
+        display: none;
+    }
+    .nott-healthy-habbit {
+        display: contents;
+    }
+    .margin-extra2 {
+        margin-top: 30px;
+    }
+}
+
+
+/*-----------------------------------End of healthy-life-style-habit  ---------------------------------------------*/
+
+
+/*-----------------------------------Start of Services ---------------------------------------------*/
+
+
+/*-----------------------------------End of Services  ---------------------------------------------*/
+
+
+/*-----------------------------------Start of Time and support ---------------------------------------------*/
+
+#timing-support {
+    width: 100%;
+    background-color: #E1E5E5;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    height: auto;
+    margin: auto;
+}
+
+.time-and-support-headeding {
+    color: #BB2020;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.timing-text {
+    background-color: #BDC7C8;
+    padding: 16px 25px 16px 25px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+/*-----------------------------------End of time and support  ---------------------------------------------*/
+
+
+/*-----------------------------------Start of Testimonial section -- its css is externally attached ---------------------------------------------*/
+
+
+/*-----------------------------------Start of contact me ---------------------------------------------*/
+
+#contact-me {
+    width: 100%;
+    height: auto;
+    background-color: #E1E5E5;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+.contact-heading {
+    color: #BB2020;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 40px;
+}
+
+.padd1 {
+    display: inline-block;
+    padding-top: 40px;
+    text-align: center;
+    color: #BB2020;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    text-decoration: underline;
+}
+
+.manu-img {
+    padding-top: 30px;
+    min-width: 100%;
+    height: auto;
+}
+
+.des-manoj {
+    color: #BB2020;
+    background-color: #FFEB4E;
+    text-align: center;
+    font-weight: bold;
+    height: auto;
+}
+
+.des-trainer {
+    margin-top: -5px;
+    background-color: #FFEB4E;
+    text-align: center;
+    height: auto;
+}
+
+.box {
+    height: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #BDC7C8;
+    border-radius: 50px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-edit {
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #E1E5E5;
+    color: black;
+    border: none;
+}
+
+.lab {
+    margin-top: 20px;
+}
+
+@media(max-width:767px) {
+    .box {
+        height: auto;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #BDC7C8;
+        border-radius: 50px;
+    }
+}
+
+
+/*-----------------------------------End of contact me ---------------------------------------------*/
+
+
+/*-----------------------------------Start of Footer ---------------------------------------------*/
+
+#footer {
+    background-color: #06111C;
+    height: auto;
+    color: white;
+}
+
+.social {
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.colour {
+    color: #BB2020;
+}
+
+.clearcolur {
+    background-color: transparent;
+}
