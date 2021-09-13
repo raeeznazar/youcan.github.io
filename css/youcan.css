@@ -70,9 +70,9 @@
 
 #hero {
     width: 100%;
-    ;
     height: auto;
     background-color: #E1E5E5;
+    padding-bottom: 10px;
 }
 
 .nott-hero {
@@ -164,9 +164,9 @@
         font-size: 15px;
         color: #BB2020;
         margin-top: -3px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
-}
+    
 
 @media (max-width: 389px) {
     .american-youcan {
@@ -182,7 +182,7 @@
         font-size: 15px;
         color: #BB2020;
         margin-top: -8px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 }
 
